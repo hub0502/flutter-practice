@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-            body: Row(
+            body: Column(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: const [Icon(Icons.star), Icon(Icons.star), Icon(Icons.star)],
     )));
