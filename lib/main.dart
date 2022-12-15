@@ -13,11 +13,10 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
             appBar: AppBar(title: Text('앱임')),
             body: Container(
-                width: 50,
-                height: 50,
-                color: Colors.blue,
-                padding: EdgeInsets.all(20),
-                child: Text('dddd'),
-                margin: EdgeInsets.fromLTRB(0, 30, 0, 0))));
+              width: 50,
+              height: 50,
+              decoration:
+                  BoxDecoration(border: Border.all(color: Colors.black)),
+            )));
   }
 }
